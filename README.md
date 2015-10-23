@@ -4,6 +4,8 @@ This is a technical challenge done as part of an interview.
 
 ## Building
 
+Note: This project is uploaded built for convenience.
+
 ```
 npm install && bower install && gulp
 ```
