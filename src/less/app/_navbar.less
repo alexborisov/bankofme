@@ -1,0 +1,29 @@
+.app__navbar {
+  .navbar();
+  .navbar-default();
+  margin:0;
+  padding:0;
+
+  font-size: @font-size-large;
+
+  .navbar {
+    &-brand {
+      padding:0;
+
+      & > img {
+        height:100%;
+        width:auto;
+      }
+    }
+
+    &-nav {
+      li {
+        a {
+          font-size: @font-size-large;
+          padding-top:@font-size-base;
+          padding-bottom:@font-size-base;
+        }
+      }
+    }
+  }
+}

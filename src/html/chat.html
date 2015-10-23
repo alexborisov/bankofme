@@ -1,0 +1,77 @@
+<section class="view chatView container">
+    <div class="panel chat">
+        <div class="panel-heading chat__header">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="chat__heading">
+                        <i class="glyphicon glyphicon-comment"></i> Chat
+                    </div>
+                </div>
+                <div class="col-xs-6"><div class="btn btn-empty pull-right">
+                    <i class="glyphicon glyphicon-facetime-video"></i> Video Call
+                </div></div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <ul class="media-list">
+                <li class="media chat__message--left">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object chat__avatar" src="img/agent_assets/agent_chat.png" alt="Joe">
+                        </a>
+                    </div>
+                    <div class="media-body container-fluid">
+                        <div class="media-heading row">
+                            <span class="col-xs-6 chat__sender">Joe</span>
+                            <div class="col-xs-6 chat__timestamp">
+                                <i class="glyphicon glyphicon-time"></i> 15 mins ago
+                            </div>
+                        </div>
+                        Hi! I'm Joe and I'll be helping you open an account today.<br>
+                        To begin with, we'll need your registered student number from UCAS please - do you have this to hand?
+                    </div>
+                </li>
+                <li class="media chat__message--right">
+                    <div class="media-body container-fluid">
+                        <div class="media-heading row">
+                            <div class="col-xs-6 chat__timestamp">
+                                <i class="glyphicon glyphicon-time"></i> 15 mins ago
+                            </div>
+                            <span class="col-xs-6 chat__sender">You</span>
+                        </div>
+                        No probs - my student number is 1234567890 and my email is test@test.com
+                    </div>
+                    <div class="media-right">
+                        <a href="#">
+                            <img class="media-object chat__avatar" src="img/customer_assets/customer_chat.png" alt="You">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="panel-footer chat__footer hidden-xs">
+            <div class="chat__actions">
+                <button class="btn btn-circle btn-danger"><i class="glyphicon glyphicon-folder-open"></i></button>
+                <button class="btn btn-circle btn-danger"><i class="glyphicon glyphicon-camera"></i></button>
+            </div>
+            <div class="input-group chat__input">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-danger" type="button">Send Message</button>
+                </span>
+            </div>
+        </div>
+        <div class="panel-footer chat__footer visible-xs">
+            <div class="input-group chat__input">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-danger" type="button"><i class="glyphicon glyphicon-envelope"></i></button>
+                </span>
+            </div>
+            <div class="chat__actions">
+                <i class="glyphicon glyphicon-folder-open"></i>
+                <i class="glyphicon glyphicon-camera"></i>
+            </div>
+        </div>
+    </div>
+</section>

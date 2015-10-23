@@ -1,0 +1,50 @@
+.app__menu {
+  background: @brand-primary;
+  text-align: center;
+
+  .menu {
+    &__wrap {
+      .container();
+      margin: 0 auto;
+      list-style: none;
+    }
+
+    &__item {
+      display: inline-block;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: @brand-primary;
+      color: white;
+      border-left: 1px solid @gray-lighter;
+
+      &:last-child {
+        border-right: 1px solid @gray-lighter;
+      }
+    }
+
+    &__link {
+      display: block;
+      padding: @padding-large-vertical @padding-small-horizontal;
+      color: inherit;
+      text-decoration: none;
+
+      @media (min-width: @screen-xs) {
+        padding: @padding-large-vertical @padding-large-horizontal;
+      }
+
+      @media (min-width: @screen-sm) {
+        padding: @padding-large-vertical @padding-large-horizontal * 3;
+      }
+    }
+
+    &__icon {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: @padding-small-vertical;
+    }
+    &__label {
+      display: block;
+    }
+  }
+}

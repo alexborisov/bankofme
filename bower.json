@@ -1,0 +1,23 @@
+{
+  "name": "bankofme",
+  "version": "1.0.0",
+  "authors": [
+    "Alex Borisov <alex@alexborisov.com>"
+  ],
+  "main": "dist/index.html",
+  "license": "ISC",
+  "homepage": "https://github.com/alexborisov/bankofme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "less": "~2.5.3",
+    "angular": "angularjs#~1.4.7",
+    "angular-ui-router": "~0.2.15"
+  }
+}

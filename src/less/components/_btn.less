@@ -1,0 +1,22 @@
+.btn {
+  text-transform: uppercase;
+
+  & > i {
+    margin-right: @padding-xs-horizontal;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.btn-empty {
+  .btn-default();
+
+  background-color: transparent;
+
+  &:hover {
+    background-color: @brand-primary;
+    color: white;
+  }
+}

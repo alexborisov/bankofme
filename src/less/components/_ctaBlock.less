@@ -1,0 +1,31 @@
+.ctaBlock {
+  text-align: center;
+
+  .btn {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid white;
+    padding: @padding-large-vertical @padding-large-horizontal*2;
+    margin-top: @padding-small-vertical;
+    margin-bottom: @padding-small-vertical;
+
+    &:last-child {
+      margin-right: @padding-base-horizontal
+    }
+
+    @media (min-width: @screen-sm) {
+      display: inline-block;
+      width: initial;
+      margin-left: @padding-small-horizontal;
+    }
+  }
+
+  .btn-empty {
+    color: white;
+
+    &,
+    &:hover {
+      border-color: white;
+    }
+  }
+}
